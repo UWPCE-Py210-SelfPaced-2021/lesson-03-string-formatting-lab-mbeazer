@@ -28,3 +28,7 @@ print('{3:0>2d} {4} {2} {0:0>2d} {1}'.format(4, 30, 2017, 2, 27))
 test_list = ['oranges', 1.3, 'lemons', 1.1]
 print(f'The weight of an {test_list[0][:-1]} is {test_list[1] * 1.2:.2f} and the weight of a {test_list[2][:-1]} is {test_list[3] * 1.2:.2f}')
 
+# Task 6
+name_tuples = [('Mario', 35, 1000), ('Luigi', 33, 100), ('Peach', 35, 3000), ('Toad', 32, 10)]
+for character in name_tuples:
+    print(f'{character[0]:<8s}{character[1]:<6d}${character[2]:<6d}')
