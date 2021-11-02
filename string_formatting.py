@@ -22,4 +22,9 @@ def formatter(in_tuple):
 print(formatter((2, 3, 5, 7, 9)))
 
 # Task 4
+print('{3:0>2d} {4} {2} {0:0>2d} {1}'.format(4, 30, 2017, 2, 27))
+
+# Task 5
+test_list = ['oranges', 1.3, 'lemons', 1.1]
+print(f'The weight of an {test_list[0][:-1]} is {test_list[1] * 1.2:.2f} and the weight of a {test_list[2][:-1]} is {test_list[3] * 1.2:.2f}')
 
